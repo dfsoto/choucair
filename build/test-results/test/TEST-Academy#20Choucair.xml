@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Academy Choucair" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-08-12T06:25:30" hostname="DANIELSOTO" time="11.896">
+  <properties/>
+  <testcase name="Search for a automation course" classname="Academy Choucair" time="11.896">
+    <failure message="java.lang.NullPointerException: No BaseStepListener has been registered - are you running your test using the Serenity runners?" type="java.lang.NullPointerException">java.lang.NullPointerException: No BaseStepListener has been registered - are you running your test using the Serenity runners?
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:897)
+	at net.thucydides.core.steps.StepEventBus.getBaseStepListener(StepEventBus.java:153)
+	at net.thucydides.core.steps.StepEventBus.updateOverallResults(StepEventBus.java:808)
+	at net.serenitybdd.screenplay.EventBusInterface.updateOverallResult(EventBusInterface.java:34)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:255)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:187)
+	at net.serenitybdd.screenplay.Actor.wasAbleTo(Actor.java:174)
+	at co.com.choucair.certification.proyectoBase.stepdefinitions.ChoucairAcademyStepDefinitions.thanDanielWantsToLearnAutomationAtTheAcademyChoucair(ChoucairAcademyStepDefinitions.java:25)
+	at ✽.than Daniel wants to learn automation at the academy choucair(file:///C:/Users/user/IdeaProjects/co.com.choucair.certification.proyectoBase/src/test/resources/features/academyChoucair.feature:8)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Using automatically driver download
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.driver: src/test/resources/driver/c..., chrome.switches: --start-maximized, driver: chrome, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., timeouts.implicitlywait: 10000}
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 47404
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ago 12, 2021 1:25:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>
